@@ -1,4 +1,5 @@
 import Image from "next/image";
+
 interface Props {
     className?: string;
   }
