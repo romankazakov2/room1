@@ -9,6 +9,12 @@ export default function Home() {
          <Title text="Все пиццы" size="lg" className="font-extrabold"/>
         </Container>
         <Categories/>
+        <Container>
+          <>
+          <div className="w-[250px]">
+          </div>
+          </>
+        </Container>
       </>
   )
 }
