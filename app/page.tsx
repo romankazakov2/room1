@@ -1,4 +1,4 @@
-import { Container, Title } from "@/components/shared";
+import { Container, Title, TopBar, Filters } from "@/components/shared";
 import { Categories } from "@/components/shared/categories";
 
 
@@ -9,11 +9,13 @@ export default function Home() {
          <Title text="Все пиццы" size="lg" className="font-extrabold"/>
         </Container>
         <Categories/>
+        <TopBar />
         <Container>
-          <>
-          <div className="w-[250px]">
+          <div className="flex ">
+            <div className="w-[250px]">
+              <Filters />
+            </div>
           </div>
-          </>
         </Container>
       </>
   )
