@@ -9,4 +9,5 @@ export {FilterCheckbox} from './filter-checkbox';
 export {CheckboxFiltersGroup} from './checkbox-filters-group';
 export {Filters} from './filtres';
 export {TopBar} from './top-bar';
+export {ProductCard} from './product-card';
 
